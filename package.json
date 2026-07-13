@@ -1,0 +1,19 @@
+{
+  "name": "rapax-telegram",
+  "version": "1.0.0",
+  "description": "RaPaX™ Telegram Bot — Sovereign Digital Products Vending Machine client",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
