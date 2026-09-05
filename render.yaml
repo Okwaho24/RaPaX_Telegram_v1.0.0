@@ -1,0 +1,7 @@
+services:
+  - type: background_worker
+    name: RaPaX_Telegram_Bot
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
